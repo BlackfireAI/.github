@@ -1,0 +1,36 @@
+name: Accuracy problem
+description: The model transcribes or speaks something incorrectly
+labels: [accuracy]
+body:
+  - type: markdown
+    attributes:
+      value: >
+        Individual mistakes are expected, every speech model makes them. This template is
+        for patterns: a kind of word, speaker or audio the model consistently gets wrong.
+  - type: textarea
+    id: pattern
+    attributes:
+      label: What the model gets wrong
+      description: Describe the pattern, with several examples rather than one.
+    validations:
+      required: true
+  - type: textarea
+    id: examples
+    attributes:
+      label: Expected against actual
+      description: Reference text and model output, a few lines of each.
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: audio
+    attributes:
+      label: Audio
+      description: >-
+        Attach clips if you can. If not, describe them: length, speaker, dialect,
+        recording conditions, how much English is in the speech.
+  - type: input
+    id: model
+    attributes:
+      label: Model and version
+      placeholder: BlackfireAI/nepali-asr-xlsr-300m

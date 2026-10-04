@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Questions about our products
+    url: https://blackfire.com.np
+    about: Aawazz, LipiSub and Tipni are not developed in these repositories.
+  - name: Security problem
+    url: https://github.com/BlackfireAI/.github/blob/main/SECURITY.md
+    about: Do not report security problems in a public issue.

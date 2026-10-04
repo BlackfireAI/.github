@@ -1,0 +1,33 @@
+name: Bug report
+description: Something does not work
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, what you got instead.
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: How to reproduce
+      description: The command or code you ran. Include the audio file if the problem is
+        audio specific and you are able to share it.
+      render: shell
+    validations:
+      required: true
+  - type: input
+    id: model
+    attributes:
+      label: Model and version
+      placeholder: BlackfireAI/nepali-asr-xlsr-300m
+  - type: textarea
+    id: env
+    attributes:
+      label: Environment
+      description: Output of `pip list | grep -E "torch|transformers"`, plus CPU or GPU.
+      render: shell
+    validations:
+      required: true
