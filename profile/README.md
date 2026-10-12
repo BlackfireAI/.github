@@ -14,8 +14,8 @@ not exist yet, and building models that hold up with less of it.
 | | |
 |---|---|
 | **[Aawazz](https://www.aawazz.com)** | Text to speech, voice cloning and video dubbing in Nepali and English. Give your words a voice. |
-| **[LipiSub](https://www.lipisub.com)** | Video transcription, translation and subtitling. Give every word a place. |
-| **[Tipni](https://www.tipni.pro)** | AI meeting notes with transcripts, decisions and action items. Keep what matters from every meeting. |
+| **[LipiSub](https://lipisub.com)** | Video transcription, translation and subtitling. Give every word a place. |
+| **[Tipni](https://tipni.pro)** | AI meeting notes with transcripts, decisions and action items. Keep what matters from every meeting. |
 
 ## Open source
 
